@@ -13,6 +13,8 @@
 
 ## BackTracking本质是一种暴力求解的算法，因此需要消耗大量空间
 
+## 通常找到所有路径/排列，都可以使用BrackTracking的思想
+
 ## BackTracking模版
 1. 设置现场
 2. DFS
