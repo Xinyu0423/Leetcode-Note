@@ -10,3 +10,13 @@ print("res_a=",res_a)
 ```
 ('a=', 'abcdef')  
 ('res_a=', 'fedcba')
+
+## Join
+ join() 方法用于将序列中的元素以指定的字符连接生成一个新的字符串  
+ ```
+ mylist=['a','b','c']
+ mystr=''.join(mylist)
+ print("mystr=",mystr)
+ ```
+ ('mystr=', 'abc')
+ 
