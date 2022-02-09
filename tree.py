@@ -1,3 +1,4 @@
+from inspect import stack
 from logging import root
 import queue
 
@@ -49,6 +50,19 @@ class Tree:
         print(root.val)
         self.dfs_preoder(root.left)
         self.dfs_preoder(root.right)
+    
+    def dfs_preorder_stack(self):
+        if root is None:
+            return
+        stack=[self.root]
+        while stack:
+            pop_node=stack.pop()
+            print(pop_node.val)
+            if pop_node.right is not None:
+                stack.append(pop_node.right)
+            if pop_node.left is not None:
+                stack.append(pop_node.left)
+
 
     def dfs_inorder(self,root):
         if root is None:
@@ -82,3 +96,5 @@ print("-------------------DFS Inorder-------------------")
 tree.dfs_inorder(tree.root)
 print("-------------------DFS Postorder-------------------")
 tree.dfs_postorder(tree.root)
+print("-------------------DFS Preorder Stack-------------------")
+tree.dfs_preorder_stack()
