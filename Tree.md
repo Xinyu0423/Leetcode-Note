@@ -6,7 +6,7 @@
 3. 后序遍历
 4. 层序遍历
 
-### 前序遍历
+### 前序遍历(Preorder Traversal)
 前序遍历的顺序为 ```根节点->左子树->右子树```
 递归写法
 ```
@@ -88,7 +88,5 @@ class Solution(object):
                     stack.append(root.right)
                 if root.left:
                     stack.append(root.left)
-        return res
-
-        
+        return res 
 ```
