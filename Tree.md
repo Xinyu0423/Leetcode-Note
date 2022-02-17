@@ -11,9 +11,14 @@
 ## 树中用bfs通常用queue实现
 
 ## Question
-1. 104
-2. 
+1. Tree
+   1. 107,103,101,110,104,951(TO_DO)
+   2. 
 
+## Procedure Doing Tree Questions（recursion）:
+1. 判断树的根是否存在（Base Case）
+
+   
 ### 前序遍历(Preorder Traversal)
 前序遍历的顺序为 `根节点->左子树->右子树`
 ```
