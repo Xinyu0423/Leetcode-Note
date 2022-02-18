@@ -13,7 +13,15 @@
 ## Question
 1. Tree
    1. 107,103,101,110,104,951(TO_DO)
-   2. 
+2. 107为什么不能用while
+3. 104这个代码是什么意思
+```
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+```
 
 ## Procedure Doing Tree Questions（recursion）:
 1. 判断树的根是否存在（Base Case）
