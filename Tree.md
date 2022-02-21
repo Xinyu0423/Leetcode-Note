@@ -12,11 +12,14 @@
 
 ## Question
 1. Tree
-   1. 107,103,101,110,104,951(TO_DO)
+   1. 104,110
+   2. 101,951(TO_DO)
+   3. 111,226(already did),108(extension)
+   4. 105,106(try)
+   
 2. 110为什么不能用while
 3. 104这个代码是什么意思
 4. 713,424(滑动窗口)
-5. 
 ```
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
@@ -27,7 +30,8 @@ class Solution:
 
 ## Procedure Doing Tree Questions（recursion）:
 1. 判断树的根是否存在（Base Case）
-
+2. 判断是否可以用递归
+3. 
    
 ### 前序遍历(Preorder Traversal)
 前序遍历的顺序为 `根节点->左子树->右子树`
