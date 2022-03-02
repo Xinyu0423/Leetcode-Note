@@ -1,5 +1,11 @@
 # Work Application
 
+## 格式
+1. (Company Name)
+   1. Status：
+   2. Job ID:
+   3. 邮箱： 
+   
 ## 02/28/2022
 1. Microsoft
    1. Status(已回复，需要自己去网上完成内推)
@@ -31,5 +37,13 @@
    2. 第三人称自我介绍：
       1. See in Google docs
    3. 邮箱： jobreferral135@gmail.com
+   
 2. Coinbase
    1. Status(已发邮件，待回复)
+   2. Link: https://www.1point3acres.com/bbs/thread-854000-4-1.html#lastpost
+   3. 邮箱：coinbase2022refer@gmail.com
+3. Antra
+   1. Status(已发邮件，待回复)
+   2. Link: https://www.1point3acres.com/bbs/thread-785380-1-1.html
+   3. 邮箱：helen.hu@antra.com
+4. 
