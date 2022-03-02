@@ -2,7 +2,7 @@
 
 ## 02/28/2022
 1. Microsoft
-   1. Status(已发动邮件，等待回复)
+   1. Status(已回复，需要自己去网上完成内推)
       1. 内推链接：https://www.1point3acres.com/bbs/thread-856656-1-1.html
       2. Job ID:
          1. 1106841
@@ -18,7 +18,18 @@
       3. 邮件：455669@qq.com
    
 2. 波士顿资管Data Analyst
-   1. Status(已发动邮件，等待回复)
+   1. Status(已发邮件，等待回复)
    2. Link: https://www.1point3acres.com/bbs/thread-857207-1-1.html
    3. 邮箱：financial_career@outlook.com
-3. 
+
+## 03/01/2022
+1. Nylas
+   1. Status（已发邮件，等待回复）
+      1. Job ID:
+         1. https://ats.comparably.com/api/v1/lvr/nylas/55afee0c-4593-4763-8a66-d9f16d714893
+         2. https://ats.comparably.com/api/v1/lvr/nylas/5943da8b-bf3c-4bca-ab11-6dd664f49c6b
+   2. 第三人称自我介绍：
+      1. See in Google docs
+   3. 邮箱： jobreferral135@gmail.com
+2. Coinbase
+   1. Status(已发邮件，待回复)
