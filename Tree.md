@@ -285,4 +285,25 @@ class Solution(object):
 
 ### 层序遍历
 层序遍历的顺序为`逐层遍历`
-`TO DO`
+迭代写法
+```
+def levelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        res=[]
+        def bfs(root):
+            if root==None:
+                return []
+            queue=[root]
+            while queue:
+                pop_node=queue.pop(0)
+                res.append(pop_node.val)
+                if pop_node.left is not None:
+                    queue.append(pop_node.left)
+                if pop_node.right is not None:
+                    queue.append(pop_node.right)
+        bfs(root)
+        return res
+```
