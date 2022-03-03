@@ -24,9 +24,9 @@
       3. 邮件：455669@qq.com
    
 2. 波士顿资管Data Analyst
-   1. Status(已发邮件，等待回复)
-   2. Link: https://www.1point3acres.com/bbs/thread-857207-1-1.html
-   3. 邮箱：financial_career@outlook.com
+   1. Status(已发邮件，等待回复--已发送follow up)
+   1. Link: https://www.1point3acres.com/bbs/thread-857207-1-1.html
+   2. 邮箱：financial_career@outlook.com
 
 ## 03/01/2022
 1. Nylas
@@ -43,7 +43,6 @@
    2. Link: https://www.1point3acres.com/bbs/thread-854000-4-1.html#lastpost
    3. 邮箱：coinbase2022refer@gmail.com
 3. Antra
-   1. Status(已发邮件，待回复)
+   1. Status(已回复，待预约面试时间）
    2. Link: https://www.1point3acres.com/bbs/thread-785380-1-1.html
    3. 邮箱：helen.hu@antra.com
-4. 

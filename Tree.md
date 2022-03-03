@@ -31,7 +31,9 @@ class Solution:
 ## Procedure Doing Tree Questions（recursion）:
 1. 判断树的根是否存在（Base Case）
 2. 判断是否可以用递归
-3. 
+
+## Note
+1. 如果需要判断True和False，通常需要使用helper function
    
 ### 前序遍历(Preorder Traversal)
 前序遍历的顺序为 `根节点->左子树->右子树`
