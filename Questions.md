@@ -8,4 +8,10 @@
 ## 03/03/2022
 1. Leetcode 463
 
+## 03/07/2022
+1. Leetcode 101
+2. Leetcode 560题--前缀和
+3. Leetcode 694(如何查看是不是相同的岛屿)
+4. Leetcode 200题和695是不是不能用while写
+
 
