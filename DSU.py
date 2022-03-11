@@ -1,28 +1,3 @@
-# Graph
-
-## Question
-1. ~~994--思考994和695的区别~~
-2. ~~695--bfs,dfs(非递归)~~
-
-## 03/04/2022
-1. 比较1091和994，994是多个中心同时开始bfs，1091是一个中心开始bfs。
-2. 200题用while写一次。
-3. 785
-4. 547
-5. 并查集
-
-## Note
-1. 二分图属于染色问题来做，染色问题不一定只有二分图
-
-## 03/09/2022
-1. 并查集(DSU):解决无向图的判环问题
-   1. 547尝试用并查集做，684
-2. 有向图判环
-   1. 207
-
-
-## 并查集 (DSU)
-```
 # Disjoint set union(DSU)
 
 # # 功能
@@ -46,4 +21,9 @@ class DSU:
             self.relation_list[root_node1]=root_node2
         else:
             print("The two nodes has been connected")
-```
+
+dsu=DSU(4)
+dsu.connect_node(1,2)
+dsu.connect_node(2,3)
+dsu.connect_node(2,3)
+print(dsu.relation_list)
