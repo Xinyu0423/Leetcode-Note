@@ -19,4 +19,10 @@ print("res_a=",res_a)
  print("mystr=",mystr)
  ```
  ('mystr=', 'abc')
+
+ ## 去除string的标点
+```
+exclude = set(string.punctuation)
+s = ''.join(ch for ch in s if ch not in exclude)
+```
  
