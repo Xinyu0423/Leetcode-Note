@@ -8,4 +8,19 @@
 ## Questions
 1. 62,63,53,198
 2. 152,221(harder)
-3. 
+
+## Questions
+1. 64,
+2. 647
+3. 72
+
+## Questions
+1. 647(after understanding question 5)
+2. Stock Question: 121, 
+3. Stock Question: 309,714(just look questions and analysis)
+4. Stock Question(hardest): 123, 188(not necessary)
+
+
+## Questions
+1. 46, 47(back tracking)
+2. 39, 49, 216(just look the questions)
