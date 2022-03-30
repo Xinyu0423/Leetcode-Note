@@ -131,9 +131,14 @@ Reference: https://zhuanlan.zhihu.com/p/61805956
          4. SVM对缺失数据敏感。
 
 
-
-
-
+## 高频面试题
+1. 解决过拟合（overfitting的方法）
+   1. early stopping、数据集扩增（Data augmentation）、正则化（Regularization）、Dropout，BN
+2. 解决欠拟合（underfitting的方法）
+   1. 增加新特征，考虑加入特征组合，高次特征来增大假设空间
+   2. 减少正则化参数。
+   3. 使用非线性模型:比如核SVM，决策树，深度学习等模型
+   4. 容量低的模型很难拟合训练集，使用集成学习方法，
 
 
 
