@@ -47,7 +47,42 @@ Reference: https://zhuanlan.zhihu.com/p/61805956
       3. 6个encoder堆叠形成编码端，6个decoder堆叠形成解码端
       4. word embedding使用随机初始化或者word_to_vertex
       5. position encoding中使用token embedding+segement emb+position emb
-2. 
+2. Bert输入部分
+   1. NSP(next sentence prediction)二分类任务，处理两个句子之间的关系
+   2. Token Embedding进行随机初始化
+   3. Segment Embedding区分两个/多个句子
+   4. Position Embedding使用随机初始化后由模型去学习出来
+   5. Transform中使用的是正余弦函数
+3. 如何做预训练: MLM(mask language model)+NSP
+   1. bert在预训练时使用的是大量的无标注的语料（无监督模型）
+   2. 对于无监督，有两种目标函数
+      1. AR(autoregressive)
+         1. 自回归模型，只能考虑单侧的信息，比如GPT
+      2. AE(Autoencoding)
+         1. 自编码模型：从损坏的输入数据中预测重建原始数据，Bert使用的就是AE模型
+         2. Mask的概率问题
+            1. 随机mast15%的单词
+               1. 10%替换成其他
+               2. 10%原封不动
+               3. 80%替换成mask
+   3. NSP任务
+      1. NSP训练样本
+         1. 从训练语料库中抽取两个连续的段落作为正样本
+         2. 从不同的文档中随机创建一对段位作为负样本
+         3. 缺点：主题预测和连贯性预测合并成单项任务
+4. 如何提升Bert下游任务的表现
+   1. 在大量通用语料中训练一个language model（一般用已经训练好的）
+   2. 在相同领域继续训练LM(Domain transfer)
+      1. 使用动态mask：每次epoch去训练的时候使用mask，而不是一直使用同一个
+   3. 在任务相关的小数据上继续训练LM（task transfer）
+   4. 在任务相关数据上做具体任务（fine-tune）
+   5. Batch size：16，32
+   6. Learning rate：尽量小一点避免灾难性遗忘
+   7. Number of epochs：3，4
+5. 脱敏数据中如何使用Bert
+   1. 如果数据很大，可以直接训练一个新的bert
+   2. 数据很小，会导致欠拟合
+   3. 
 
 ## Machine Learning
 1. 朴素贝叶斯
