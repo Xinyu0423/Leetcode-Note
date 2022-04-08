@@ -261,3 +261,33 @@
    2. 项目更侧重embedding，如果DNN效果太好，可能无法比较出差异
 4. 说一下调参的方式，L1正则L2正则
 5. 主要了解一下分类器的原理
+
+
+## 流程
+1. Project Goal:
+   1. 介绍一下为什么使用这两种模型(都是sota)
+   2. 这两种模型去做什么
+   3. 介绍一下数据
+   4. 在完成所有内容后差异化的原因
+2. Bert-wwn
+   1. 介绍wwm
+   2. 为什么要用wwm，解决了MLM的什么问题
+   3. 介绍一下bert的架构(输入端3种embedding)
+   4. 举例子说明wwm的好处
+3. XLM-R
+   1. 介绍XLM-R模型和Bert的主要区别(有监督embedding)
+   2. 介绍比bert多一层，具体有什么作用(语意获取)
+   3. 减少了语种选择的bias，通过公式
+   4. 控制变量，使用XLM-R没有使用XLM。
+4. Result1
+   1. 使用了precision，recall和F1来检测accuracy，并查看macro accuracy和weighted accuracy
+   2. 混淆矩阵查看有没有过拟合/欠拟合，查看预测错误的情况
+5. Rusult2
+   1. 不论是bert还是XLM-R中都是Random Forest和logistic Regression结果更好
+   2. Bert在接近的数据中效果更好，而且准确率也稍微高一点
+6. Technique used：
+   1. 混淆矩阵
+   2. 多种分类器模型，random forest时间最长
+7. Conclusion：
+   1. Bert效果更好。
+   2. XLMR更适合在多语言场景下的word embedding，但文本主要以中文为主，限制了它的发挥
