@@ -1,0 +1,12 @@
+2.  nH and nW decrease, while nC increases
+
+3. c and t are chosen to be nearby words.
+
+4. 27,000,100
+
+5. 17
+
+6. 29*29*32
+
+9. You can use a 1x1 convolutional layer to reduce nC but not nH, nW.
+You can use a pooling layer to reduce nH, nW, but not nC.

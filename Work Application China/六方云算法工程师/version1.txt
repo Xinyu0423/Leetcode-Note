@@ -1,0 +1,95 @@
+1. Each neuron in the first hidden layer will perform the same computation. So even after multiple iterations of gradient descent each neuron in the layer will be computing the same thing as other neurons.
+
+2. A non-linear dimensionality reduction
+technique.
+
+3. 19x19x8
+
+4. m1 << m2
+
+5. 300
+
+6. sigmoid
+
+多选
+7. Reducing the regularization effect
+Causing the neural network to end up with a lower training set error
+
+8. If a learning algorithm is suffering from high bias, only adding more training examples may not improve the test error significantly.
+A model with more parameters is more likely to over-fitting and typically has high variance.
+
+9. e_{boy} - e_{girl} \approx e_{brother} - e_{sister}
+e_{boy} - e_{brother} \approx e_{girl} - e_{sister}
+
+10. It makes the cost function faster to optimize
+Normalization is another word form regularization – it helps to reduce variance.
+
+11.错
+
+12. 错
+
+13. 错
+
+14. 错
+
+15. 错
+
+16.错
+
+17. 错
+
+18.对
+
+19.对
+
+20. 错
+
+
+
+24.数据标准化是指数据的各维度减均值除以标准差，这是最常用的标准化方法。
+数据归一化是指数据减去对应维度的最小值除以维度最大值减去维度最小值，这样做可以将数值压缩到[0,1]的区间。
+白化的目的是去除输入数据的冗余信息。
+
+
+
+
+
+25. 
+	def left_bound(self,nums,target):
+            left,right=0,len(nums)-1
+            while(left<right):
+                middle=(left+right)//2
+                if nums[middle]<target:
+                    left=middle+1
+                elif nums[middle]>target:
+                    right=middle-1
+                else:
+                    right=middle
+            if nums[left]==target:
+                return left
+            else:
+                return -1
+        
+        def right_bound(self,nums,target):
+            left,right=0,len(nums)-1
+            while(left<right):
+                middle=(left+right+1)//2
+                if nums[middle]<target:
+                    left=middle+1
+                elif nums[middle]>target:
+                    right=middle-1
+                else:
+                    left=middle
+            if nums[left]==target:
+                return left
+            else:
+                return -1
+    
+        if len(nums)==0:
+            return [-1,-1]
+        first_res=left_bound(self,nums,target)
+        if first_res==-1:
+            return [-1,-1]
+        else:
+            second_res=right_bound(self,nums,target)
+            return [first_res,second_res]
