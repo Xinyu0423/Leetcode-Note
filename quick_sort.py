@@ -29,7 +29,6 @@ nums=[1,2,1]
 head=0
 tail=len(nums)-1
 print(quick_sort(nums,head,tail))
-print(random.randint(1,1))
     
     
 
