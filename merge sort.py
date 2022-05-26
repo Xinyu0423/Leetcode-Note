@@ -4,6 +4,8 @@ def merge_sort(nums):
     middle=len(nums)//2
     left_boundary=merge_sort(nums[:middle])
     right_boundary=merge_sort(nums[middle:])
+    print("left_boundary",left_boundary)
+    print("right_boundary",right_boundary)
     res=[]
     left_index=0
     right_index=0
@@ -20,4 +22,5 @@ def merge_sort(nums):
     res+=right_boundary[right_index:]
     return res
 
+merge_sort([3,5,7,1,6,9,10])
         
