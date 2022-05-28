@@ -9,3 +9,27 @@
 
 ## 异或
 1. 两个相同的数异或得0
+
+## 通过两个数异或得到 该数的值
+```python
+def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        res_xor=0
+        for i in nums:
+            res_xor^=i
+        bit=1
+        while bit& res_xor==0:
+            bit<<=1
+        resA=0
+        resB=0
+        for i in nums:
+            if i&bit==0:
+                resA^=i
+            else:
+                resB^=i
+        return [resA,resB]
+```
+
