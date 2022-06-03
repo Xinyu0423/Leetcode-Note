@@ -73,3 +73,7 @@
 2. 50
 3. 405
 4. 1095(二分)
+
+## 06/02/2022 (Questions for next time)
+1. Lintcode 31
+2. 405

@@ -53,7 +53,57 @@ def singleNumber(self, nums):
         return [resA,resB]
 ```
 
+## 将十进制的数转为2/7/16进制
+1. 可以通过取余的方式，将数转为2/7/16进制
+2. 最后将取余后的结果反向输出([::-1])，即可得到专为2/7/16进制的结果
+例：将数转为7进制
+```
+504. Base 7
+Given an integer num, return a string of its base 7 representation.
+
+ 
+
+Example 1:
+
+Input: num = 100
+Output: "202"
+Example 2:
+
+Input: num = -7
+Output: "-10"
+ 
+
+Constraints:
+
+-107 <= num <= 107
+```
+```python
+class Solution(object):
+    def convertToBase7(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
+        if num==0:
+            return "0"
+        res=""
+        flag=False
+        # 负数整除7，在除不尽的情况下永远等于-1,所以将它转为正数
+        if num<0:
+            flag=True
+            num*=-1
+        
+        while num!=0:
+            res=res+str((num%7))
+            num//=7
+        if flag:
+            return "-"+res[::-1]
+        else:
+            return res[::-1]
+```
 
 ## Note
 1. 负数整除7，在除不尽的情况下永远等于-1
+2. 3<sup>13</sup>=3<sup>(1011)_2</sup>=3<sup>2^3</sup>*3<sup>2^1</sup>*3<sup>2^0</sup>,即可以通过将幂转化为2进制，通过2进制相乘来防止数字溢出
+3. 当num为负数时，可以通过num=(2^32)+num获得其负数的编码，此操作称为补码(2**32+num)
 
