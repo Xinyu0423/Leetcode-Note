@@ -77,3 +77,6 @@
 ## 06/02/2022 (Questions for next time)
 1. Lintcode 31
 2. 405
+
+## 06/06/2022
+1. 为什么在比较旋转数组的最大/最小值时，需要用middle和right进行比较
