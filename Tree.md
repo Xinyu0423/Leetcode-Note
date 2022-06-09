@@ -68,7 +68,7 @@ class Solution:
 输出：[1,2]
 ```
 递归写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -94,7 +94,7 @@ class Solution(object):
         
 ```
 迭代写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -155,7 +155,7 @@ class Solution(object):
 ```
 
 递归写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -180,7 +180,7 @@ class Solution(object):
         return res  
 ```
 迭代写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -232,7 +232,7 @@ class Solution(object):
 输出：[1]
 ```
 递归写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -257,7 +257,7 @@ class Solution(object):
         return res
 ```
 迭代写法
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
@@ -288,7 +288,7 @@ class Solution(object):
 ### 层序遍历
 层序遍历的顺序为`逐层遍历`
 迭代写法
-```
+```python
 def levelOrder(self, root):
         """
         :type root: TreeNode
