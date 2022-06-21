@@ -48,3 +48,6 @@ class DSU:
         else:
             print("The two nodes has been connected")
 ```
+
+## List Comprehension (列表推导式):
+1. ```print([j.val for j in i.neighbors])```

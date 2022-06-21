@@ -84,3 +84,17 @@
 3. Leetcode 33
 4. Leetcode 547
 5. 二叉树的最大深度是怎么运行的
+
+## 06/09/2022 (复习下图)
+1. 547
+2. 785
+
+## 06/13/2022(Question going to ask)
+1. leetcode 133
+2. leetcode 127
+
+## 06/18/2022 (Questions going to ask)
+1. 547
+2. 114 为什么left_last=4
+3. 236 当left_last为None，右不为None时该如何理解
+
