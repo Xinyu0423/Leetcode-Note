@@ -23,7 +23,7 @@
 
 ## 并查集 (DSU)
 概念：如果两个节点有相同的根节点，那么两个节点一定相连
-```
+```python
 # Disjoint set union(DSU)
 
 # # 功能
@@ -51,3 +51,7 @@ class DSU:
 
 ## List Comprehension (列表推导式):
 1. ```print([j.val for j in i.neighbors])```
+
+## 入度表和邻接表
+1. 邻接表存每个node的出node
+2. 入度表存每个node的入个数

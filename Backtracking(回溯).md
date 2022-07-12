@@ -13,3 +13,8 @@
 1. 78, 90
 2. 216
 3. 257
+
+## start_index和visited的区别
+1. start_index和visited都是在以相同的方式，缩小解空间的范围
+   1. 但当
+

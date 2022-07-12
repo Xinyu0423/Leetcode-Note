@@ -97,4 +97,16 @@
 1. 547
 2. 114 为什么left_last=4
 3. 236 当left_last为None，右不为None时该如何理解
+4. 210题，邻接表可不可以写成index的前置课程有哪些
 
+## 06/24/2022(Questions going to ask)
+1. 684 DSU find_root为什么要使用while，为什么relation_list的length要加一
+2. 17题的path为什么不能用string(什么时候需要用string，什么时候用list)
+3. 47题为什么不用start_index，而使用visited(什么时候使用visited),比如39题使用start_inde而不是用visited
+
+## 06/26/2022(Questions going to ask)
+1. 继续问下start_index和visited(46题为什么不能用start_index)
+2. leetcode 323
+
+## 07/05/2022
+1. Lintcode 1375

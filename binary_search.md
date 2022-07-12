@@ -66,7 +66,7 @@ def binary_search(nums):
     right=len(nums)-1
     while left<right:
         middle=(left+right+1)//2
-        if nums[middle]<target:
+        if nums[middle]>target:
             right=middle-1
         else:
             left=middle
