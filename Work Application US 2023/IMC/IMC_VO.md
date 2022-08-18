@@ -43,6 +43,11 @@
    5. n is the dataset
    
 8.  how did you find out this job opportunity and why are you interested in applying
+    1. I've spent a lot of time thinking about various career possibilities and I think this is the job that suits me best because many of the skills required for this job are what I'm good at.
+    2.  For example, this job requires software development using some knowledge of machine learning and AI. I have taken these courses at both undergraduate and graduate level and have done some projects. Through these projects, I learned a lot of machine learning models, such as SVM, decision tree and random forest.
+    3.  Also, the job is mostly software development, which I've always been interested in.  I learned object-oriented development in the postgraduate period.
+    4.  I did an internship as a software development engineer when I was an undergraduate student and learned some basic knowledge about software development like design patterns.
+    5.  So I think I'm a good fit for the job and will prove my worth in future works
 
 ## Version 2
 1. Describe a situation where you need to adapt your personal style to work with other people/teams.
