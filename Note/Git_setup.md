@@ -7,3 +7,4 @@
    `git config --list`
 4. 生成一个用于ssh的key
    `ssh-keygen -t rsa -C "1501270955@qq.com"`
+5. 
